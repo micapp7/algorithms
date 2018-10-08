@@ -24,4 +24,9 @@ public class FixedCapacityStackOfStrings {
         return a[--n]; // remove last item in stack (n-1)
     }
 
+    // Exercise 1.3.1: Add isFull method
+    public boolean isFull() {
+        return n == a.length;
+    }
+
 }
