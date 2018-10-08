@@ -10,7 +10,7 @@ public class ResizingArrayStackTest {
             String item = StdIn.readString();
             if(!item.equals("-")) // if it is not a '-' character, add it to the stack.
                 s.push(item);
-            else if (!s.isEmpty()) // otherwise, remove the last item item on the stack.
+            else if (s.iterator().hasNext()) // otherwise, remove the last item item on the stack.
                 StdOut.print(s.pop() + " removed from stack");
         }
         StdOut.print("(" + s.size() + " left on stack)");
