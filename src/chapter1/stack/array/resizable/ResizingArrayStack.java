@@ -3,6 +3,8 @@ package chapter1.stack.array.resizable;
 import java.util.Iterator;
 
 public class ResizingArrayStack<Item> implements Iterable<Item> {
+
+    @SuppressWarnings("unchecked")
     private Item[] a = (Item[]) new Object[1]; // stack entries.
     private int n; // size
 
@@ -16,6 +18,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
 
     private void resize(int max) {
         // Move stack to a new array of size max.
+        @SuppressWarnings("unchecked")
         Item[] temp = (Item[]) new Object[max];
         for (int i = 0; i < n; i++)
             temp[i] = a[i];
@@ -45,7 +48,7 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
 
     // Use nested class to obtain array (a) and array size (n) variables.
     private class ReverseArrayIterator implements Iterator<Item> {
-        private int i = n-1;
+        private int i = n-1; // get the last index
         @Override
         public boolean hasNext() {
             return i >= 0;
@@ -54,8 +57,6 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         @Override
         public Item next() {
             return a[i--];
-        }
+        } // get item at current index then move index down
     }
-
-
 }
