@@ -18,9 +18,8 @@ public class QueueTest {
 
         // q isA iterable and implements iterator interface
         for(String item : q) {
-            System.out.print(", " + item);
+            System.out.println(item);
         }
-
 
         StdOut.println("(" + q.size() + " " + "left in queue)");
     }

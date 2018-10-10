@@ -45,6 +45,10 @@ public class Queue<Item> implements Iterable<Item> {
 
     }
 
+    public Item peek() {
+        return first.item;
+    }
+
     @Override
     public Iterator<Item> iterator() {
         return new ListIterator();

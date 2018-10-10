@@ -3,7 +3,7 @@ package chapter1.bag;
 import java.util.Iterator;
 
 // LIFO - order not important
-// Pop - method removed
+// Pop method removed
 
 public class Bag<Item> implements Iterable<Item> {
    private Node first;
