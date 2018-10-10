@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="435ccd16-cf53-4de6-94d7-57bf0add1eb2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/experiments/CoinBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter1/experiments/PeopleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter1/test/ContainsMatchingParenthesisTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/queue/Queue$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algs4/chapter1/queue/Queue$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/queue/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algs4/chapter1/queue/Queue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/queue/QueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algs4/chapter1/queue/QueueTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/stack/array/fixed/FixedCapacityStackOfStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algs4/chapter1/stack/array/fixed/FixedCapacityStackOfStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/bag/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/bag/Bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/queue/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter1/queue/QueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/queue/QueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algs4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algs4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algs4/chapter1/exercises/ParenthesesClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter1/exercises/Chapter1Exercises.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,29 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ParenthesesClient.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClient.java">
+      <file leaf-file-name="Chapter1Exercises.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/Chapter1Exercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter1/stack/linkedlist/Stack.java">
+      <file leaf-file-name="ContainsMatchingParenthesisTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter1/test/ContainsMatchingParenthesisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="204">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
               <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#355#356#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -68,6 +57,7 @@
       <find>s</find>
       <find>person</find>
       <find>closeParenthesisStack</find>
+      <find>containsEqualParentheses</find>
     </findStrings>
     <replaceStrings>
       <replace>FixedCapacityStack</replace>
@@ -75,6 +65,7 @@
       <replace>q</replace>
       <replace>search</replace>
       <replace>closedParenStack</replace>
+      <replace>containsMatchingParenthesis</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -119,13 +110,20 @@
         <option value="$PROJECT_DIR$/src/chapter1/experiments/PeopleQueue.java" />
         <option value="$PROJECT_DIR$/src/chapter1/experiments/CoinBag.java" />
         <option value="$PROJECT_DIR$/src/chapter1/bag/Bag.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClientTest.groovy" />
+        <option value="$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClientTest.java" />
         <option value="$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClient.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/exercises/ContainsMatchingParenthesisTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/chapter1/ContainsMatchingParenthesisTest.java" />
+        <option value="$PROJECT_DIR$/src/Test/ContainsMatchingParenthesisTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/test/ContainsMatchingParenthesisTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter1/exercises/Chapter1Exercises.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1377" />
-    <option name="y" value="353" />
+    <option name="x" value="1375" />
+    <option name="y" value="351" />
     <option name="width" value="1280" />
     <option name="height" value="710" />
   </component>
@@ -135,8 +133,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,43 +163,7 @@
               <item name="algs4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="bag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="experiments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algs4" type="b2602c69:ProjectViewProjectNode" />
@@ -211,16 +173,32 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.34461537" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="chapter1.test" />
+      <recent name="Test" />
+      <recent name="chapter1.exercises" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="groovy.util.GroovyTestCase" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="chapter1.queue" />
       <recent name="chapter1" />
@@ -241,64 +219,147 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParenthesesClient">
-    <configuration name="CoinBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.experiments.CoinBag" />
-      <module name="algs4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ParenthesesClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.exercises.ParenthesesClient" />
-      <module name="algs4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PeopleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.experiments.PeopleQueue" />
-      <module name="algs4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.experiments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="QueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.queue.QueueTest" />
-      <module name="algs4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter1.stack.linkedlist.StackTest" />
-      <module name="algs4" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter1.stack.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ContainsMatchingParenthesisTest (2)">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ContainsMatchingParenthesisTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="Test.ContainsMatchingParenthesisTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ContainsMatchingParenthesisTest (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter1.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="chapter1.test" />
+      <option name="MAIN_CLASS_NAME" value="chapter1.test.ContainsMatchingParenthesisTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ContainsMatchingParenthesisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.chapter1.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test.chapter1.exercises" />
+      <option name="MAIN_CLASS_NAME" value="Test.chapter1.exercises.ContainsMatchingParenthesisTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ContainsMatchingParenthesisTest.shouldReturnFalseWithNonMatchingParenthesis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.chapter1.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test.chapter1.exercises" />
+      <option name="MAIN_CLASS_NAME" value="Test.chapter1.exercises.ContainsMatchingParenthesisTest" />
+      <option name="METHOD_NAME" value="shouldReturnFalseWithNonMatchingParenthesis" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test in algs4" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.chapter1.exercises in algs4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.chapter1.exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Test.chapter1.exercises" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -339,19 +400,20 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.StackTest" />
-      <item itemvalue="Application.QueueTest" />
-      <item itemvalue="Application.PeopleQueue" />
-      <item itemvalue="Application.CoinBag" />
-      <item itemvalue="Application.ParenthesesClient" />
+      <item itemvalue="JUnit.ContainsMatchingParenthesisTest" />
+      <item itemvalue="JUnit.ContainsMatchingParenthesisTest.shouldReturnFalseWithNonMatchingParenthesis" />
+      <item itemvalue="JUnit.Test in algs4" />
+      <item itemvalue="JUnit.Test.chapter1.exercises in algs4" />
+      <item itemvalue="JUnit.ContainsMatchingParenthesisTest (1)" />
+      <item itemvalue="JUnit.ContainsMatchingParenthesisTest (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParenthesesClient" />
-        <item itemvalue="Application.CoinBag" />
-        <item itemvalue="Application.PeopleQueue" />
-        <item itemvalue="Application.QueueTest" />
-        <item itemvalue="Application.StackTest" />
+        <item itemvalue="JUnit.ContainsMatchingParenthesisTest (2)" />
+        <item itemvalue="JUnit.ContainsMatchingParenthesisTest (1)" />
+        <item itemvalue="JUnit.Test.chapter1.exercises in algs4" />
+        <item itemvalue="JUnit.ContainsMatchingParenthesisTest" />
+        <item itemvalue="JUnit.ContainsMatchingParenthesisTest.shouldReturnFalseWithNonMatchingParenthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -370,6 +432,38 @@
       <updated>1538952030064</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ParenthesesClientTest - 2018.10.10 at 11h 45m 03s.xml">
+      <configuration name="ParenthesesClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParenthesesClientTest_shouldReturnFalseWithNonMatchingParenthesis - 2018.10.10 at 11h 45m 57s.xml">
+      <configuration name="ParenthesesClientTest.shouldReturnFalseWithNonMatchingParenthesis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParenthesesClientTest_shouldReturnFalseWithNonMatchingParenthesis - 2018.10.10 at 11h 46m 01s.xml">
+      <configuration name="ParenthesesClientTest.shouldReturnFalseWithNonMatchingParenthesis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParenthesesClientTest_shouldReturnFalseWithNonMatchingParenthesis - 2018.10.10 at 11h 46m 06s.xml">
+      <configuration name="ParenthesesClientTest.shouldReturnFalseWithNonMatchingParenthesis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParenthesesClientTest_shouldReturnFalseWithNonMatchingParenthesis - 2018.10.10 at 11h 46m 11s.xml">
+      <configuration name="ParenthesesClientTest.shouldReturnFalseWithNonMatchingParenthesis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParenthesesClientTest_shouldReturnFalseWithNonMatchingParenthesis - 2018.10.10 at 11h 46m 17s.xml">
+      <configuration name="ParenthesesClientTest.shouldReturnFalseWithNonMatchingParenthesis" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsMatchingParenthesisTest - 2018.10.10 at 11h 50m 10s.xml">
+      <configuration name="ContainsMatchingParenthesisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_chapter1_exercises_in_algs4 - 2018.10.10 at 11h 54m 01s.xml">
+      <configuration name="Test.chapter1.exercises in algs4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsMatchingParenthesisTest_(1) - 2018.10.10 at 11h 57m 10s.xml">
+      <configuration name="ContainsMatchingParenthesisTest (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsMatchingParenthesisTest_(2) - 2018.10.10 at 11h 59m 19s.xml">
+      <configuration name="ContainsMatchingParenthesisTest (2)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,8 +491,8 @@
       <window_info anchor="bottom" x="261" y="802" width="907" height="990" id="Terminal" order="10" weight="0.33333334" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53984964" visible="true" weight="0.08248547" />
-      <window_info id="Structure" order="6" sideWeight="0.46015036" side_tool="true" visible="true" weight="0.08248547" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5383459" visible="true" weight="0.15043604" />
+      <window_info id="Structure" order="6" sideWeight="0.46165413" side_tool="true" visible="true" weight="0.15043604" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -425,56 +519,17 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/chapter1/exercises/Chapter1Exercises.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter1/stack/linkedlist/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/stack/array/resizable/ResizingArrayStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/stack/array/fixed/FixedCapacityStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/stack/linkedlist/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/stack/array/resizable/ResizingArrayStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="43" selection-start-line="43" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/stack/linkedlist/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -826,16 +881,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClientTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter1/stack/linkedlist/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="527">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#1011#1012#0" expanded="true" />
             <element signature="e#1044#1045#0" expanded="true" />
             <element signature="e#1098#1099#0" expanded="true" />
             <element signature="e#1139#1140#0" expanded="true" />
@@ -843,10 +904,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/ParenthesesClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.0/junit-4.0.jar!/org/junit/internal/runners/TestMethodRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="241">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/readme">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/ContainsMatchingParenthesisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/exercises/Chapter1Exercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/test/ContainsMatchingParenthesisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -926,7 +1019,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>algs4</last-edited>
+          <last-edited>junit:junit:4.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
